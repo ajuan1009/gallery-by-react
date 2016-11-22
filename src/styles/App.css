@@ -1,0 +1,35 @@
+html body{
+  width: 100%;
+  height:100%;
+  background-color: #222;
+}
+.app{
+  width: 100%;
+  height:100%;
+}
+/*satge --start*/
+.stage{
+  width: 100%;
+  height: 480px;
+  position: relative;
+  background-color: #ddd;
+}
+/*stage --end*/
+/*img-sec -- start*/
+.img-sec{
+  width: 320px;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+}
+/*img-sec -- end*/
+/* contrller -- satrt*/
+.controller-nav{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 30px;
+  z-index: 101;
+}
+/*controller -- end*/
